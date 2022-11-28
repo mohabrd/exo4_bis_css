@@ -1,12 +1,33 @@
+/* exo1 */
 h1 {
     border: solid 5px red;
 
 }
-
+/* exo2 */
 li:nth-child(2):hover, li:nth-child(3):hover{
     text-decoration: underline;
 }
-
+/* exo3 */
 span ~ p {
     background-color: green;
+}
+/* exo4 */
+
+
+/* exo5 */
+section:nth-child(even) {
+    background-color: lightyellow;
+}
+/* exo6 */
+
+
+/* exo7 */
+a[href*="./p"] {
+    border-top: 2px solid red;
+}
+
+/* exo 8 */
+section:nth-child(2n+1) h2{
+    background-color: black;
+    color: white;
 }
