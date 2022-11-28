@@ -2,3 +2,11 @@ h1 {
     border: solid 5px red;
 
 }
+
+li:nth-child(2):hover, li:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+span ~ p {
+    background-color: green;
+}
